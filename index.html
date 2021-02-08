@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="estiloent1.css">
+    <meta charset="utf-8">
+    <title>Entrega 1</title>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script type="text/javascript">
+        $(function(){
+
+     $('a[href*=#]').click(function() {
+
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+
+             var $target = $(this.hash);
+
+             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+             if ($target.length) {
+
+                 var targetOffset = $target.offset().top;
+
+                 $('html,body').animate({scrollTop: targetOffset}, 800);
+
+                 return false;
+
+            }
+
+       }
+
+   });
+
+});
+    </script>
+</head>
+<body>
+    <img src="Fondo.jpg" class="fondo">
+
+    <center>
+        <div id="header" class="header">
+            <ul class="nav">
+                <li><a href="#descripcion">Descripción</a></li>
+                <li><a href="">Funciones</a>
+            <ul><br>
+                    <li><a href="#suma">Suma</a></li>                   <br>
+                    <li><a href="#promedio">Promedio</a></li>           <br>
+                    <li><a href="#contar">Contar</a></li>               <br>
+                    <li><a href="#contarsicon">Contar Si Con.</a></li>  <br>
+                    <li><a href="#buscarv">BuscarV</a></li>             <br>
+                    <li><a href="#indice">Indice</a></li>
+            <ul>
+        </div>
+
+            <div class="divTitulo">
+                titulo
+           </div>
+            <div id="Inicio">
+               <img src="titulo.png" class="titulo">
+               <img src="linea1.png" class="linea1">
+               <img src="linea2.png" class="linea2">
+            </div>
+
+            <div class="divSubir">
+                subir
+            </div>
+            <div>
+                <a href="#Inicio">
+                <img src="subir.png" class="subir">
+                </a>
+            </div>
+
+            <div class="divRegresar">
+                regresar
+            </div>
+            <div>
+                <a href=" ">
+                <img src="regresar.png" class="regresar">
+                </a>
+            </div>
+
+            <div class="contenido">
+                Contenido
+            </div>
+
+            <div class="texto1" >
+                Excel es un programa informático desarrollado por la empresa Microsoft y que forma parte de Office que es una suite ofimática que incluye otros programas como Word y PowerPoint. <br><br>
+
+                Excel se distingue de todos los programas ofimáticos porque nos permite trabajar con datos numéricos. Con los números que almacenamos en Excel podremos realizar cálculos aritméticos básicos y también podremos aplicar funciones matemáticas de mayor complejidad, o utilizar funciones estadísticas. Excel nos facilita en gran medida el trabajo con números y nos permite analizarlos fácilmente y generar reportes con herramientas como los gráficos y las tablas dinámicas.
+
+                <img src="titulo2.png" class="titulo2" id="descripcion">
+                <img src="separador.png" class="separador">
+                <img src="funciones.png" class="funciones">
+                <img src="suma.png" class="suma" id="suma">
+
+            </div>
+
+            <div class="txtsuma">
+                La función suma agrega valores. Puede sumar valores individuales, referencias o rangos de celda o una combinación de las tres. <br><br>
+
+                Por ejemplo: <br><br>
+
+                <video src="EjemploSuma.mp4" controls="" width="700"></video>
+            </div>
+
+            <img src="promedio.png" class="promedio" id="promedio">
+            <div class="txtpromedio">
+                Devuelve el promedio (media aritmética) de los argumentos. Por ejemplo, si el intervalo A1:A20 contiene números, la fórmula =PROMEDIO(A1:A20) devuelve el promedio de dichos números.<br><br>
+
+                Por ejemplo: <br><br>
+
+                <video src="EjemploPromedio.mp4" controls="" width="700"></video>
+            </div>
+
+            <img src="contar.png" class="contar" id="contar">
+            <div class="txtcontar">
+                La función CONTAR cuenta la cantidad de celdas que contienen números y cuenta los números dentro de la lista de argumentos. Use la función CONTAR para obtener la cantidad de entradas en un campo de número de un rango o matriz de números.<br><br>
+
+                Por ejemplo: <br><br>
+                <video src="EjemploContar.mp4" controls="" width="700"></video>
+            </div>
+
+            <img src="contarsicon.png" class="contarsicon" id="contarsicon">
+            <div class="txtcontarsicon">
+                La función CONTAR.SI.CONJUNTO aplica criterios a las celdas de varios rangos y cuenta el número de veces que se cumplen todos los criterios.<br><br>
+
+                Por ejemplo: <br><br>
+                <video src="EjemploContarSIC.mp4" controls="" width="700"></video>
+            </div>
+
+            <img src="buscarv.png" class="buscarv" id="buscarv">
+            <div class="txtbuscarv">
+                Use BUSCARV cuando necesite buscar elementos en una tabla o en un rango por fila. Por ejemplo, busque un precio de una parte de Automotive por el número de pieza o busque un nombre de empleado basándose en su identificador de empleado.<br><br>
+
+                Por ejemplo: <br><br>
+                <video src="EjemploBuscarV.mp4" controls="" width="700"></video>
+            </div>
+
+            <img src="indice.png" class="indice" id="indice">
+            <div class="txtindice">
+                La función INDICE devuelve un valor o la referencia a un valor desde una tabla o rango.<br><br>
+
+                Por ejemplo: <br><br>
+                <video src="EjemploIndice.mp4" controls="" width="700"></video>
+            </div>
+
+
+    </center>
+</body>
+</html>

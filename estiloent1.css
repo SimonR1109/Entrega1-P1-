@@ -1,0 +1,334 @@
+.fondo
+{
+  position:fixed;
+  display: block;
+  height: 101%;
+  width: 100%;
+  right: 0%;
+  top: -1%;
+  z-index: -10%;
+}
+
+.divTitulo
+{
+	position: absolute;
+	background-color: black;
+	opacity: 50%;
+	height: 30%;
+    width: 51%;
+    top: 8%;
+    left: 23%;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 100%;
+}
+
+.titulo
+{
+	position: absolute;
+	left: 24%;
+	width: 50%;
+	top: 15%;
+}
+.linea1
+{
+	position: absolute;
+	width: 10%;
+	top: 9%;
+	left: 63.5%;
+}
+
+.linea2
+{
+	position: absolute;
+	width: 10%;
+	top: 18.5%;
+	left: 23.5%;
+}
+
+.divSubir
+{
+	position: fixed;
+	background-color: black;
+	opacity: 30%;
+	height: 8.7%;
+    width: 11.5%;
+    top: 87.8%;
+    left: 86.17%;
+    border-radius: 12px;
+
+    -webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 200%;
+}
+
+.subir
+{
+	position: fixed;
+	width: 19%;
+	top: 79%;
+	left: 81%;
+	z-index: 20%;
+}
+
+.divRegresar
+{
+	position: absolute;
+	background-color: black;
+	opacity: 30%;
+	height: 8.7%;
+    width: 11.5%;
+    top: 2%;
+    left: 2%;
+    border-radius: 12px;
+
+    -webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 100%;
+}
+
+.regresar
+{
+	position: absolute;
+	width: 19%;
+	top: -6.8%;
+	left: -3.15%;
+}
+
+.contenido
+{
+	position: absolute;
+	background-color: black;
+	opacity: 70%;
+	height: 880%;
+    width: 75%;
+    left: 10%;
+    top: 70%;
+    border-radius: 12px;
+
+    -webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 100%;
+}
+
+.texto1
+{
+	position: absolute;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+	top: 90%;
+	left: 12.5%;
+	font-size: 30px;
+	width: 70%;
+}
+
+.titulo2
+{
+	position: absolute;
+	width: 70%;
+	top: -35%;
+	left: 15%;
+}
+
+.separador
+{
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: 55%;
+}
+
+.funciones{
+	position: absolute;
+	width: 60%;
+	left: 20%;
+	top: 120%;
+}
+
+.suma
+{
+	position: absolute;
+	width: 75%;
+	top: 150%;
+	left: 13%;
+}
+
+.txtsuma
+{
+	position: absolute;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+	top: 200%;
+	left: 12.5%;
+	font-size: 30px;
+	width: 70%;
+
+}
+
+.promedio
+{
+	position: absolute;
+	width: 60%;
+	top: 300%;
+	left: 18%;
+}
+
+.txtpromedio
+{
+	position: absolute;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+	top: 324%;
+	left: 12.5%;
+	font-size: 30px;
+	width: 70%;
+}
+
+.contar
+{
+	position: absolute;
+	width: 60%;
+	top: 430%;
+	left: 18%;
+}
+
+.txtcontar
+{
+	position: absolute;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+	top: 457%;
+	left: 12.5%;
+	font-size: 30px;
+	width: 70%;
+}
+
+.contarsicon
+{
+	position: absolute;
+	width: 70%;
+	top: 565%;
+	left: 12.5%;
+}
+
+.txtcontarsicon
+{
+	position: absolute;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+	top: 590%;
+	left: 12.5%;
+	font-size: 30px;
+	width: 70%;
+}
+
+.buscarv
+{
+	position: absolute;
+	width: 60%;
+	top: 690%;
+	left: 17.5%;
+}
+
+.txtbuscarv
+{
+	position: absolute;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+	top: 717%;
+	left: 12.5%;
+	font-size: 30px;
+	width: 70%;
+}
+
+.indice
+{
+	position: absolute;
+	width: 60%;
+	top: 823%;
+	left: 17.5%;
+}
+
+.txtindice
+{
+	position: absolute;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+	top: 850%;
+	left: 12.5%;
+	font-size: 30px;
+	width: 70%;
+}
+
+.header
+{
+	position: absolute;
+	z-index: 1000;
+	top: 45%;
+	left: 34%;
+}
+
+* {
+	margin:0px;
+	padding:0px;
+}
+		
+#header {
+	margin:0px;
+	width:600px;
+	font-style: oblique;
+	font-size: 18px;
+}
+			
+ul, ol {
+	list-style:none;
+}
+		
+.nav > li {
+	float: left;
+
+}
+			
+.nav li a {
+	position: relative;
+	font-style: oblique;
+	background-color: white;
+	text-decoration: none;
+	padding: 10px 35px;
+	border: 1px solid #29286D;
+	border-radius: .25rem;
+	color: #29286D;
+	transition: color .15s ease-in-out,
+	background-color .15s ease-in-out;
+	font-size: 25px;
+}
+			
+.nav li a:hover, .nav li a:active, .nav li a:focus {
+	 color: white;
+	 background-color: #29286D;
+}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width: 140px;
+}
+			
+.nav li:hover > ul {
+	display:block;
+	left: 28%;
+}
+			
+.nav li ul li {
+	position:relative;
+}
+			
